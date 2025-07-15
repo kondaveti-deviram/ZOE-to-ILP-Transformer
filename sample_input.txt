@@ -1,0 +1,67 @@
+Matrix A:
+
+1 0 0 0
+-1 0 0 0
+0 1 0 0
+0 -1 0 0
+0 0 1 0
+0 0 -1 0
+0 0 0 1
+0 0 0 -1
+1 0 0 0
+-1 0 0 0
+0 1 0 0
+0 -1 0 0
+0 0 1 0
+0 0 -1 0
+0 0 0 1
+0 0 0 -1
+
+Vector b:
+
+1
+-1
+1
+-1
+1
+-1
+1
+-1
+1
+0
+1
+0
+1
+0
+1
+0
+
+Zero-one equations:
+
+(1 * x1) == 1
+
+Solution for this group: (1, 0, 0, 0)
+
+Zero-one equations:
+
+(1 * x2) == 1
+
+Solution for this group: (0, 1, 0, 0)
+
+Zero-one equations:
+
+(1 * x3) == 1
+
+Solution for this group: (0, 0, 1, 0)
+
+Zero-one equations:
+
+(1 * x4) == 1
+
+Solution for this group: (0, 0, 0, 1)
+
+Overall solution: 
+x_0 = 1
+x_1 = 1
+x_2 = 1
+x_3 = 1
